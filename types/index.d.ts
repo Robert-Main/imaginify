@@ -35,6 +35,7 @@ declare type AddImageParams = {
 	userId: string;
 	path: string;
 };
+
 declare type UpdateImageParams = {
 	image: {
 		_id: string;
